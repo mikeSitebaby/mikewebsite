@@ -1,11 +1,11 @@
-
+import React from 'react';
+import Carousel from '../Components/Carousel';
 
 
 export default function Home() {
     return (
         <div>
-            <h1>Home</h1>
-            <p>Welcome to my website!</p>
+            <Carousel/>
         </div>
     );
 }
