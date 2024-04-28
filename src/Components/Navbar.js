@@ -14,16 +14,19 @@ const Navbar = () => {
       </div>
         <Menu noOverlay right>
           <a className="menu-item" href="/">
-            Home
+            home
           </a>
           <a className="menu-item" href="/about">
-            About
+            biography
           </a>
           <a className="menu-item" href="/projects">
-            Projects
+            my work
           </a>
           <a className="menu-item" href="/contact">
-            Contact
+            future dates
+          </a>
+          <a className="menu-item" href="/contact">
+            cello
           </a>
         </Menu>
         </div>
