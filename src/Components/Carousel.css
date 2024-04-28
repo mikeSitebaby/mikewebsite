@@ -1,0 +1,9 @@
+.carousel-item {
+    height: 85vh; /* Set a fixed height for carousel items */
+  }
+  
+  .carousel-image {
+    object-fit: cover; /* Ensure the image covers the fixed space */
+    height: 100%; /* Fill the entire height of the carousel item */
+    width: 100%; /* Fill the entire width of the carousel item */
+  }
