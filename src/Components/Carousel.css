@@ -1,9 +1,26 @@
 .carousel-item {
-    height: 85vh; /* Set a fixed height for carousel items */
+    height: 80vh; /* Set a fixed height for carousel items */
   }
   
   .carousel-image {
     object-fit: cover; /* Ensure the image covers the fixed space */
     height: 100%; /* Fill the entire height of the carousel item */
     width: 100%; /* Fill the entire width of the carousel item */
+  }
+
+  /* Fix for flickering carousel */                                                      
+.carousel-inner .carousel-item {
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    position: absolute;
+    transition-duration: 3s;
+  }
+  .carousel-inner .carousel-item:first-of-type {
+    position: relative;
+  }
+  .carousel-inner .active {
+    opacity: 1;
   }
