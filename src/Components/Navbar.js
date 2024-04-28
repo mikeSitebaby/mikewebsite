@@ -7,7 +7,10 @@ const Navbar = () => {
   return (
   <div className="container1">
       <div className='flexywrap'>
-      <a className="navbar-brand" href="/">Mike's Website</a>
+      <div className='headercontainer'>
+      <a className="name" href="/">Michael Cobb</a>
+      <p>Conductor</p>
+      </div>
       </div>
         <Menu noOverlay right>
           <a className="menu-item" href="/">
