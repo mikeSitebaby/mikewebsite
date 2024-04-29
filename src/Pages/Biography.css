@@ -1,0 +1,39 @@
+h2 {
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Brandon Grotesque';
+padding-top: 25px;
+padding-bottom: 30px;
+
+}
+
+
+h3 {
+    display: flex;
+    align-items: center;
+    font-family: 'Brandon Grotesque';
+    padding-top:25px;
+    padding-left: 55px;
+
+    
+    }
+
+    .bio {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Brandon Grotesque';
+        padding: 25px;
+    }
+
+    .bioText {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Brandon Grotesque';
+        padding-left: 25px;
+        padding-right: 25px;
+    }
