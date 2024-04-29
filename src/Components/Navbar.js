@@ -1,17 +1,16 @@
 // Navbar.js
 import React from 'react';
-import { useState } from 'react';
 import './Navbar.css';
 import { slide as Menu } from 'react-burger-menu'
 import { Link } from 'react-router-dom';
 
-const Navbar = () => {
-  const [activeLink, setActiveLink] = useState("home");
+const Navbar = ({isAnimating, setIsAnimating}) => {
 
-  const handleLinkClick = (link) => {
-      setActiveLink(link);
+  const handleClick = () => {
+   
+    setIsAnimating(!isAnimating);
+
   };
-
 
   return (
   <div className="container1">
@@ -22,16 +21,9 @@ const Navbar = () => {
       </div>
       </div>
         <Menu noOverlay right>
-        <Link
-                    to="/"
-                    onClick={() => handleLinkClick('about')}
-                    className={`navbar-link ${activeLink === 'about' ? 'active-link' : ''}`}
-                >home</Link>
-        <Link
-                    to="/Biography"
-                    onClick={() => handleLinkClick('biography')}
-                    className={`navbar-link ${activeLink === 'about' ? 'active-link' : ''}`}
-                >biography</Link>
+        <Link  onClick={handleClick} to={!isAnimating ? '/' : '#'} >home</Link>
+        <Link to={!isAnimating ? "/Biography" : '#'} onClick={handleClick}>biography</Link>
+
           <a className="menu-item" href="/">
             my work
           </a>
