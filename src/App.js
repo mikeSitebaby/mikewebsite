@@ -1,19 +1,23 @@
 
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
+import { AnimatePresence } from "framer-motion";
+import { Route, Routes, useLocation } from 'react-router-dom';
 import Home from './Pages/Home';
 import Biography from './Pages/Biography';
 import Navbar from './Components/Navbar';
 
 function App() {
+  let location = useLocation();
   return (
     <>
       <Navbar />
       <div className="wrapper">
-    <Routes>
-      <Route exact path="/" element=<Home/> />
-      <Route exact path="/Biography" element=<Biography/> />
+      <AnimatePresence  mode="wait">
+    <Routes location={location} key={location.pathname}>
+      <Route exact path="/" element=<Home/> id='home'/>
+      <Route exact path="/Biography" element=<Biography/> id='biography' />
     </Routes>
+    </AnimatePresence>
     </div>
     </>
   );
