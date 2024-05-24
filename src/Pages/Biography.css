@@ -21,25 +21,46 @@ h3 {
 
     .bio {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
-        align-items: center;
+        text-align: justify;
         font-family: 'Brandon Grotesque';
         padding: 25px;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 20px;
     }
 
     .bioText {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        
+        
         font-family: 'Brandon Grotesque';
         padding-left: 25px;
         padding-right: 25px;
     }
 
+    /* .bioImage {
+        width: 60vh;
+    } */
+
+    .bioImageContainer {
+        height: 45vw;
+        display: flex;
+        justify-content: center;
+    }
+
     @media (max-width: 400px) {
         .bio {
             flex-direction: column;
+        }
+    }
+
+    @media (min-width: 1000px) {
+        .bioImageContainer {
+           
+          height:450px;
+           
         }
     }
