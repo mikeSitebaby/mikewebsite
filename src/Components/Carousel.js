@@ -1,6 +1,7 @@
 import MikeImage1 from '../Images/MikePinkGreen.png';
 import MikeImage2 from '../Images/MikeConducting.png';
 import './Carousel.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Carousel() {
   return (

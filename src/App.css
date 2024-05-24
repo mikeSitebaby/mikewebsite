@@ -45,11 +45,38 @@
   position: fixed;
   z-index: 100;
   bottom: -20px;
-  padding: 20px;
+  padding: 25px;
   width: 100%;
   background-color: #ffffff;
-  text-align: center;
   font-family: 'Courier New', Courier, monospace;
   font-size: small;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
+
+.icon1 {
+  width: 35.9px;
+  padding:3px;
+}
+
+.icon2 {
+  width: 28px;
+  padding:3px;
+  margin-left: 2px;
+
+}
+
+.icon3 {
+  width: 31px;
+  padding:3px;
+  margin-left: 4.5px;
+
+}
+
+.icons {
+  padding-left: 20px;
+}
