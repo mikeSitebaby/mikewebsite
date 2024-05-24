@@ -24,6 +24,7 @@ function App() {
     </Routes>
     </AnimatePresence>
     </div>
+    <p className="footer">©2024 Michael Cobb</p>
     </>
   );
 }
