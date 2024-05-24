@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import Home from './Pages/Home';
 import Biography from './Pages/Biography';
+import MyWork from './Pages/MyWork';
 import Navbar from './Components/Navbar';
 import linkedin from './Images/linkedinIcon.png';
 import facebook from './Images/facebookIcon.png';
@@ -24,6 +25,7 @@ function App() {
     <Routes location={location} key={location.pathname}>
       <Route exact path="/" element=<Home/> id='home'/>
       <Route exact path="/Biography" element=<Biography/> id='biography' />
+      <Route exact path="/MyWork" element=<MyWork/> id='my work' />
     </Routes>
     </AnimatePresence>
     </div>

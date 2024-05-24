@@ -23,15 +23,13 @@ const Navbar = ({isAnimating, setIsAnimating}) => {
         <Menu noOverlay right>
         <Link  onClick={handleClick} to={!isAnimating ? '/' : '#'} >home</Link>
         <Link to={!isAnimating ? "/Biography" : '#'} onClick={handleClick}>biography</Link>
-
-          <a className="menu-item" href="/">
-            my work
-          </a>
+        <Link to={!isAnimating ? "/MyWork" : '#'} onClick={handleClick}>my work</Link>
+        
           <a className="menu-item" href="/">
             future dates
           </a>
           <a className="menu-item" href="/">
-            cello
+            contact me
           </a>
         </Menu>
         </div>
