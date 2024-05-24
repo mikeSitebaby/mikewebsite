@@ -1,5 +1,5 @@
 import MikeImage1 from '../Images/MikePinkGreen.png';
-import MikeImage2 from '../Images/MikeMirror.png';
+import MikeImage2 from '../Images/MikeConducting.png';
 import './Carousel.css';
 
 export default function Carousel() {
@@ -7,13 +7,10 @@ export default function Carousel() {
     <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img  src={MikeImage1} className="d-block w-100 carousel-image" alt="Slide 1" />
+          <img  src={MikeImage2} className="d-block w-100 carousel-image" alt="Slide 1" />
         </div>
         <div className="carousel-item">
-          <img  src={MikeImage2} className="d-block w-100 carousel-image" alt="Slide 2" />
-        </div>
-        <div className="carousel-item">
-          <img  src={MikeImage1} className="d-block w-100 carousel-image" alt="Slide 3" />
+          <img  src={MikeImage1} className="d-block w-100 carousel-image" alt="Slide 2" />
         </div>
       </div>
       <a className="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">

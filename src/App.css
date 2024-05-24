@@ -41,3 +41,15 @@
    padding-top: 145px;
 }
 
+.footer {
+  position: fixed;
+  z-index: 100;
+  bottom: -20px;
+  padding: 20px;
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+}
+
