@@ -1,0 +1,49 @@
+.myworkContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    gap: 20px; /* Space between flex items */
+}
+
+.blogRow {
+    flex: 1 1 calc(50% - 20px); /* Adjust for two items per row, minus the gap */
+    position: relative;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.blogImage {
+    cursor: pointer;
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove inline element spacing */
+    transition: transform 0.3s;
+}
+
+.blogImage:hover {
+    transform: scale(1.05);
+}
+
+.blogtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 800px;
+    max-height: 15%;
+    font-size: 1.8vw;
+    font-family: 'Courier New', Courier, monospace;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+    padding: 0 10%;
+   }
+
+
+.blogtext.visible {
+    max-height: 200px; /* Adjust this value according to the content height */
+    padding: 20px;
+}
