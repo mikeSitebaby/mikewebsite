@@ -24,7 +24,7 @@ export default function MyWork() {
             text: `<b>Lambeth Orchestra</b> February 2023 
                    <br />Role: Guest Conductor<br /> 
                    Venue: Royal Opera House
-                   A captivating performance of classic opera.`,
+                   A captivating performance of arse.`,
         },
         {
           src: Katya,
