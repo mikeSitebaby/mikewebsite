@@ -5,6 +5,8 @@ import Candide from '../Images/Candide.png';
 import laFemme from '../Images/LaFemme.png';
 import conductingOpera from '../Images/conductingOpera.png';
 import Katya from '../Images/KatyaWindow.png';
+import mikesuite from '../Images/MikeBlueSuit.png'
+import Shirine from '../Images/Shirine.png'
 
 export default function MyWork() {
     const [visibleTexts, setVisibleTexts] = useState({});
@@ -18,6 +20,14 @@ export default function MyWork() {
 
     const works = [
      
+        {
+            src: Shirine,
+            alt: 'Berlin Phil Debut',
+            text: `<b>Lambeth Orchestra</b> February 2023 
+                   <br />Role: Guest Conductor<br /> 
+                   Venue: Royal Opera House
+                   A captivating performance of arse.`,
+        },
         {
             src: conductingOpera,
             alt: 'Lambeth Orchestra',
@@ -61,6 +71,14 @@ export default function MyWork() {
   {
     src: Katya,
     alt: 'Katya',
+    text: `<b>Katia Kabanova</b> February 2023 
+           <br />Role: Guest Conductor<br /> 
+           Venue: Royal Opera House
+           A captivating performance of classic opera. bum bum`,
+},
+{
+    src: mikesuite,
+    alt: 'mike in a nice blue suit',
     text: `<b>Katia Kabanova</b> February 2023 
            <br />Role: Guest Conductor<br /> 
            Venue: Royal Opera House
