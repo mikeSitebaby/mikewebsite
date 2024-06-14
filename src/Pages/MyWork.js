@@ -64,7 +64,7 @@ export default function MyWork() {
     text: `<b>Katia Kabanova</b> February 2023 
            <br />Role: Guest Conductor<br /> 
            Venue: Royal Opera House
-           A captivating performance of classic opera.`,
+           A captivating performance of classic opera. bum bum`,
 },
     ];
 
