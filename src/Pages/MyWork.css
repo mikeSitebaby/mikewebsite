@@ -1,11 +1,14 @@
 .myworkContainer {
+    /* display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr)); */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 10%;
-    gap: 20px; /* Space between flex items */
+    padding-bottom: 20%;
+    gap: 10px; /* Space between flex items */
+    /* grid-auto-flow: dense;  */
 }
 
 .blogRow {
@@ -14,14 +17,17 @@
     transition: transform 0.3s;
     display: flex;
     flex-direction: column;
+ 
 }
+
 
 .blogImage {
     cursor: pointer;
     width: 100%; /* Make the image responsive */
-    height: auto; /* Maintain aspect ratio */
+    height: 27vw;
     display: block; /* Remove inline element spacing */
     transition: transform 0.3s;
+  
 }
 
 .blogImage:hover {
@@ -34,8 +40,8 @@
     justify-content: center;
     max-width: 800px;
     max-height: 15%;
-    font-size: 1.8vw;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.7vw;
+    font-family: 'Brandon Grotesque';
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease-out, padding 0.5s ease-out;
@@ -44,6 +50,38 @@
 
 
 .blogtext.visible {
-    max-height: 200px; /* Adjust this value according to the content height */
-    padding: 20px;
+    max-height: 500px; /* Adjust this value according to the content height */
+    padding-top: 30px;
 }
+
+
+@media (max-width: 768px) {
+    .blogRow {
+        flex: 1 1 calc(70% - 20px); /* Adjust for one item per row, minus the gap */
+    }
+
+    .blogImage {
+        width: 100%; 
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .blogtext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        max-width: 800px;
+        font-size: 1.2em;
+        max-height: none; /* Override the max-height and overflow properties */
+        overflow: visible;
+        padding: 0 10%;
+        transition: none; /* Disable transition to prevent animation */
+    }
+
+    .blogtext.visible {
+        max-height: none; 
+    }
+}
+
+
