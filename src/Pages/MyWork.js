@@ -20,14 +20,7 @@ export default function MyWork() {
 
     const works = [
      
-        {
-            src: Shirine,
-            alt: 'Berlin Phil Debut',
-            text: `<b>Lambeth Orchestra</b> February 2023 
-                   <br />Role: Guest Conductor<br /> 
-                   Venue: Royal Opera House
-                   A captivating performance of arse.`,
-        },
+        
         {
             src: conductingOpera,
             alt: 'Lambeth Orchestra',
@@ -44,14 +37,7 @@ export default function MyWork() {
                  Venue: Royal Opera House
                  A captivating performance of classic opera.`,
       },
-      {
-        src: Candide,
-        alt: 'Candide',
-        text: `<b>Candide</b> December 2022 
-               <br />Role: Assistant Conductor to Wayne Marshall<br /> 
-               Venue: Opera de Lyon
-               An energetic and witty Bernstein operetta.`,
-    },
+      
     {
         src: laFemme,
         alt: 'laFemme',
@@ -61,28 +47,43 @@ export default function MyWork() {
                A compelling modern opera.`,
     },
     {
-      src: conductingOpera,
-      alt: 'Lambeth Orchestra',
-      text: `<b>Lambeth Orchestra</b> February 2023 
-             <br />Role: Guest Conductor<br /> 
-             Venue: Royal Opera House
-             A captivating performance of classic opera.`,
-  },
+        src: mikesuite,
+        alt: 'mike in a nice blue suit',
+        text: `<b>Katia Kabanova</b> February 2023 
+               <br />Role: Guest Conductor<br /> 
+               Venue: Royal Opera House
+               A captivating performance of classic opera. bum bum`,
+    },
+    
   {
     src: Katya,
     alt: 'Katya',
-    text: `<b>Katia Kabanova</b> February 2023 
-           <br />Role: Guest Conductor<br /> 
-           Venue: Royal Opera House
-           A captivating performance of classic opera. bum bum`,
+    text: `<b>Katia Kabanova, Janacek</b> May 2023 
+           <br />Role: Assistant Conductor to Elena Schwartz<br /> 
+           Venue: Opera de Lyon`,
 },
 {
-    src: mikesuite,
-    alt: 'mike in a nice blue suit',
-    text: `<b>Katia Kabanova</b> February 2023 
-           <br />Role: Guest Conductor<br /> 
-           Venue: Royal Opera House
-           A captivating performance of classic opera. bum bum`,
+    src: conductingOpera,
+    alt: 'Lambeth Orchestra',
+    text: `<b>Lambeth Orchestra 50th Anniversary Concert</b> February 2023 
+           <br />Role: Principal Guest Conductor<br /> 
+           Venue: Queen Elizabeth Hall<br />
+           A celebratory programme including Strauss' Four Last Songs<br />
+           Soloist: Nadine Benjamin`,
+},
+{
+    src: Candide,
+    alt: 'Bernstein Candide',
+    text: `<b>Candide, Bernstein</b> December 2022 
+           <br />Role: Assistant Conductor to Wayne Marshall<br /> 
+           Venue: Opera de Lyon`,
+},
+{
+    src: Shirine,
+    alt: 'Opera de Lyon Nouvelle Production Shirine',
+    text: `<b>Shirine - a world premiere by Thierry Escaich</b> May 2022 
+           <br />Role: Assistant Conductor to Franc Ollu<br /> 
+           Venue: Opera de Lyon`,
 },
     ];
 
