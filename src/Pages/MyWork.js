@@ -7,7 +7,8 @@ import Katya from '../Images/KatyaWindow.png';
 import mikesuite from '../Images/MikeBlueSuit.png'
 import Shirine from '../Images/Shirine.png'
 import OperaLyon from '../Images/OperaLyon.jpg'
-import WayneandMichael from '../Images/WayneandMichael.png'
+import TERRACODA1 from '../Images/TERRACODA1.JPG'
+import ReformJenniferPike from '../Images/ReformJenniferPike.jpg'
 
 export default function MyWork() {
     const [visibleTexts, setVisibleTexts] = useState({});
@@ -21,15 +22,7 @@ export default function MyWork() {
 
     const works = [
 
-        {
-            src: WayneandMichael,
-            alt: 'Wayne Marshall and Michael Cobb in bright colours',
-            text: `<b>Lambeth Orchestra Americana</b> 6 July 2024 
-                  <br />Role: Principal Guest Conductor<br /> 
-                  Venue: St John's Waterloo, London<br />
-                  Soloist: Wayne Marshall
-                  `,
-        },
+        
         {
             src: OperaLyon,
             alt: 'Photographer: Bastien NVS, Image: Opera de Lyon with clear sky',
@@ -53,6 +46,21 @@ export default function MyWork() {
             text: `<b>Katia Kabanova, Janacek</b> May 2023 
                   <br />Role: Assistant Conductor to Elena Schwartz<br /> 
                   Venue: Opera de Lyon`,
+        },
+        {
+            src: ReformJenniferPike,
+            alt: 'Michael Cobb and Jennifer Pike',
+            text: `<b>Beethoven Violin Concerto with Jennifer Pike</b> 26 March 2023 
+                  <br />Orchestra of the Reform<br /> 
+                  Venue: The Reform Club, London`,
+        },
+        {
+            src: TERRACODA1,
+            alt: 'Orchestra recording at BBC Hoddinott Hall - Photographer Paul Blakemore',
+            text: `<b>Studio Recording - Terra Coda, composer Benji Bower</b> February 2023 
+                  <br />Role: Conductor<br /> 
+                  Venue: BBC Hoddinott Hall recording studios, Cardiff<br />
+                  Recording for album release in 2024`,
         },
         {
             src: conductingOpera,
