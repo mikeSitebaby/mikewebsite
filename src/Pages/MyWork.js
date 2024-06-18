@@ -2,11 +2,12 @@ import React, { useState } from 'react';
 import './MyWork.css';
 import AnimatedPage from "../Components/transition";
 import Candide from '../Images/Candide.png';
-import laFemme from '../Images/LaFemme.png';
 import conductingOpera from '../Images/conductingOpera.png';
 import Katya from '../Images/KatyaWindow.png';
 import mikesuite from '../Images/MikeBlueSuit.png'
 import Shirine from '../Images/Shirine.png'
+import OperaLyon from '../Images/OperaLyon.jpg'
+import WayneandMichael from '../Images/WayneandMichael.png'
 
 export default function MyWork() {
     const [visibleTexts, setVisibleTexts] = useState({});
@@ -19,27 +20,19 @@ export default function MyWork() {
     };
 
     const works = [
-     
-        
+
         {
-            src: conductingOpera,
-            alt: 'Lambeth Orchestra',
-            text: `<b>Lambeth Orchestra</b> February 2023 
-                   <br />Role: Guest Conductor<br /> 
-                   Venue: Royal Opera House
-                   A captivating performance of arse.`,
+            src: WayneandMichael,
+            alt: 'Wayne Marshall and Michael Cobb in bright colours',
+            text: `<b>Lambeth Orchestra Americana</b> 6 July 2024 
+                  <br />Role: Principal Guest Conductor<br /> 
+                  Venue: St John's Waterloo, London<br />
+                  Soloist: Wayne Marshall
+                  `,
         },
         {
-            src: Katya,
-            alt: 'Katya',
-            text: `<b>Katia Kabanova</b> February 2023 
-                   <br />Role: Guest Conductor<br /> 
-                   Venue: Opera de Lyon<br />`,
-        },
-      
-        {
-            src: laFemme,
-            alt: 'laFemme',
+            src: OperaLyon,
+            alt: 'Photographer: Bastien NVS, Image: Opera de Lyon with clear sky',
             text: `<b>Die Frau ohne Schatten</b> October 2023 
                   <br />Role: Assistant Conductor to Daniele Rustioni<br /> 
                   Venue: Opera de Lyon
@@ -47,10 +40,11 @@ export default function MyWork() {
         },
         {
             src: mikesuite,
-            alt: 'mike in a nice blue suit',
-            text: `<b>Katia Kabanova</b> February 2023 
-                  <br />Role: Guest Conductor<br /> 
-                  Venue: 
+            alt: 'Michael Cobb in a blue suit',
+            text: `<b>Lambeth Orchestra Scherazade</b> 15 July 2023 
+                  <br />Role: Principal Guest Conductor<br /> 
+                  Venue: St Gabriel's Church, Pimlico<br />
+                  Soloist: Rachel Duckett
                   `,
         },
         {
