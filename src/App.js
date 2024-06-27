@@ -35,9 +35,9 @@ function App() {
     <p className="footer">
     ©2024 Michael Cobb
     <div className='icons'>
-    <img src={linkedin} alt="linkedin" className="icon1"/>
-    <img src={facebook} alt="facebook" className="icon2"/>
-    <img src={instagram} alt="instagram" className="icon3"/>
+    <a href="https://www.linkedin.com/in/michael-cobb-1488b38a" target="_blank" rel="noopener noreferrer"> <img src={linkedin} alt="linkedin" className="icon1"/></a>
+    <a href="https://www.facebook.com/conductorcobb" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="facebook" className="icon2"/></a>
+    <a href="https://www.instagram.com/michaelcobb_conductor?igsh=MW15bTEyend5ZTRsYQ%3D%3D" target="_blank" rel="noopener noreferrer" ><img src={instagram} alt="instagram" className="icon3"/></a>
     </div>
     </p>
     </>

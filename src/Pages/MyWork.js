@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './MyWork.css';
 import AnimatedPage from "../Components/transition";
 import Candide from '../Images/Candide.png';
@@ -12,13 +12,29 @@ import ReformJenniferPike from '../Images/ReformJenniferPike.jpg'
 
 export default function MyWork() {
     const [visibleTexts, setVisibleTexts] = useState({});
+    const [isClickable, setIsClickable] = useState(true);
 
     const handleImageClick = (index) => {
-        setVisibleTexts((prev) => ({
-            ...prev,
-            [index]: !prev[index],
-        }));
+        if (isClickable) {
+            setVisibleTexts((prev) => ({
+                ...prev,
+                [index]: !prev[index],
+            }));
+        }
     };
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsClickable(window.innerWidth > 768); // Adjust the breakpoint as needed
+        };
+
+        handleResize(); // Initial check on component mount
+        window.addEventListener('resize', handleResize); // Listen for window resize events
+
+        return () => {
+            window.removeEventListener('resize', handleResize); // Clean up event listener on component unmount
+        };
+    }, []);
 
     const works = [
 
