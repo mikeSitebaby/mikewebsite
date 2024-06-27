@@ -10,13 +10,15 @@ import Navbar from './Components/Navbar';
 import linkedin from './Images/linkedinIcon.png';
 import facebook from './Images/facebookIcon.png';
 import instagram from './Images/instaIcon.png';
+import ContactForm from './Pages/Contact';
+
 
 function App() {
 
   const [isAnimating, setIsAnimating] = useState(false);
 
 
-  let location = useLocation();
+  let location = useLocation(); 
   return (
     <>
       <Navbar isAnimating={isAnimating} setIsAnimating={setIsAnimating}/>
@@ -26,6 +28,7 @@ function App() {
       <Route exact path="/" element=<Home/> id='home'/>
       <Route exact path="/Biography" element=<Biography/> id='biography' />
       <Route exact path="/MyWork" element=<MyWork/> id='my work' />
+      <Route exact path ="/Contact" element=<ContactForm /> id ='contact' />
     </Routes>
     </AnimatePresence>
     </div>
