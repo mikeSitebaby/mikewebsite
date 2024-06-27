@@ -44,7 +44,7 @@ const Navbar = () => {
           <ScrollLink
             to="calendar-section"
             smooth={true}
-            duration={1500}
+            duration={500}
             onClick={closeMenu}
             className="menu-item"
             style={{ cursor: 'pointer' }}
