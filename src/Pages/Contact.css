@@ -1,0 +1,51 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 500px; 
+    
+    padding: 20px;
+    padding-top: 20px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-input,
+  .form-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  .form-submit-btn {
+    background-color: #c8c8c8; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form-submit-btn:hover {
+    background-color: #525252; 
+  }
+  
+  .contact-form-success {
+    color: #000000; 
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Brandon Grotesque';
+    font-size: 40px;
+  }
+  
+  label {
+    font-size: 20px;
+    font-family: 'Brandon Grotesque';
+  }

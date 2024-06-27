@@ -57,10 +57,8 @@ const Navbar = () => {
           </HashLink>
         )}
         
-        
-          <a className="menu-item" href="/">
-            contact me
-          </a>
+        <Link onClick={closeMenu} to={'/contact'}>contact me</Link>
+          
         </Menu>
         </div>
   );
