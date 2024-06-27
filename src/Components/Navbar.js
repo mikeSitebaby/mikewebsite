@@ -2,12 +2,14 @@
 import React from 'react';
 import './Navbar.css';
 import { slide as Menu } from 'react-burger-menu'
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { useState } from 'react';
+import { Link as ScrollLink } from 'react-scroll';
+import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
 
-
+  const location = useLocation();
 
   const [menuOpenState, setMenuOpenState] = useState(false)
 
@@ -17,7 +19,14 @@ const Navbar = () => {
 
   const closeMenu = () => {
     setMenuOpenState(false);
+    window.scrollTo(0, 0);
   }
+
+  const handleFutureDatesClick = () => {
+    if (location.pathname !== '/') {
+      closeMenu();
+    }
+  };
 
   return (
   <div className="container1">
@@ -31,10 +40,24 @@ const Navbar = () => {
         <Link  onClick={closeMenu} to={'/'}>home</Link>
         <Link onClick={closeMenu} to={'/Biography'}>biography</Link>
         <Link onClick={closeMenu} to={'/MyWork'}>my work</Link>
-        
-          <a className="menu-item" href="/">
+        {location.pathname === '/' ? (
+          <ScrollLink
+            to="calendar-section"
+            smooth={true}
+            duration={1500}
+            onClick={closeMenu}
+            className="menu-item"
+            style={{ cursor: 'pointer' }}
+          >
             future dates
-          </a>
+          </ScrollLink>
+        ) : (
+          <HashLink onClick={handleFutureDatesClick} to="/#calendar-section" className="menu-item" style={{ cursor: 'pointer' }}>
+            future dates
+          </HashLink>
+        )}
+        
+        
           <a className="menu-item" href="/">
             contact me
           </a>
