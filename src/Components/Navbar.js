@@ -3,14 +3,21 @@ import React from 'react';
 import './Navbar.css';
 import { slide as Menu } from 'react-burger-menu'
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
-const Navbar = ({isAnimating, setIsAnimating}) => {
+const Navbar = () => {
 
-  const handleClick = () => {
-   
-    setIsAnimating(!isAnimating);
 
+
+  const [menuOpenState, setMenuOpenState] = useState(false)
+
+  const handleStateChange = (state) => {
+    setMenuOpenState(state.isOpen);
   };
+
+  const closeMenu = () => {
+    setMenuOpenState(false);
+  }
 
   return (
   <div className="container1">
@@ -20,10 +27,10 @@ const Navbar = ({isAnimating, setIsAnimating}) => {
       <p>Conductor</p>
       </div>
       </div>
-        <Menu noOverlay right>
-        <Link  onClick={handleClick} to={!isAnimating ? '/' : '#'} >home</Link>
-        <Link to={!isAnimating ? "/Biography" : '#'} onClick={handleClick}>biography</Link>
-        <Link to={!isAnimating ? "/MyWork" : '#'} onClick={handleClick}>my work</Link>
+        <Menu noOverlay right isOpen={menuOpenState} onStateChange={handleStateChange} >
+        <Link  onClick={closeMenu} to={'/'}>home</Link>
+        <Link onClick={closeMenu} to={'/Biography'}>biography</Link>
+        <Link onClick={closeMenu} to={'/MyWork'}>my work</Link>
         
           <a className="menu-item" href="/">
             future dates
