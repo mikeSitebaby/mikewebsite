@@ -8,7 +8,7 @@ import mikesuite from '../Images/MikeBlueSuit.png'
 import Shirine from '../Images/ShirineCrop.png'
 import OperaLyon from '../Images/OperaLyon.jpg'
 import TERRACODA1 from '../Images/TERRACODA1.JPG'
-import ReformJenniferPike from '../Images/ReformJenniferPikeCrop.jpg'
+import ReformJenniferPike from '../Images/ReformJenniferPikeCrop.png'
 
 export default function MyWork() {
     const [visibleTexts, setVisibleTexts] = useState({});
