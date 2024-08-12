@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import MikeImage1 from '../Images/MikePinkGreen.png';
 import MikeImage2 from '../Images/MikeConducting.png';
+import MikeImage3 from '../Images/MichaelCobb-36.jpg';
 import MikeCrop from '../Images/MikeConductCrop.png';
 import './Carousel.css';
 
@@ -27,6 +28,9 @@ const Carousel = () => {
         </div>
         <div className="carousel-item">
           <img src={MikeImage1} className="d-block w-100 carousel-image" alt="Slide 2" />
+        </div>
+        <div className="carousel-item">
+          <img src={MikeImage3} className="d-block w-100 carousel-image" alt="Slide 3" />
         </div>
       </div>
       <a className="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
