@@ -4,16 +4,16 @@ import './Calendar.css';
 
 const concerts = [
   {
-    date: '2024-07-01',
-    location: 'Berlin Philharmonic, Berlin, Germany',
-    details: 'Beethoven Symphony No.9',
-    ticketLink: 'https://example.com/tickets/concertgebouw'
+    date: '28 October 2024',
+    location: 'Lambeth Orchestra with soloist Ariana Kashefi',
+    details: 'Dvorak Cello Concerto, Tchaikovsky Symphony no.2',
+    ticketLink: 'https://www.lambeth-orchestra.org.uk/events/an-evening-of-slavic-masterpieces'
   },
   {
-    date: '2024-07-15',
-    location: 'Concertgebouw, Amsterdam, Netherlands',
-    details: 'Mahler Symphony No.5',
-    ticketLink: 'https://example.com/tickets/concertgebouw'
+    date: 'May 2025',
+    location: 'Opera de Lyon',
+    details: 'Britten: Peter Grimes, Assistant Conductor to Wayne Marshall',
+    ticketLink: 'https://www.opera-lyon.com'
   },
   // Add more concerts here
 ];
