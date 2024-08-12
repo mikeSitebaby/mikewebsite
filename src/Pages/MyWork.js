@@ -14,6 +14,8 @@ export default function MyWork() {
     const [visibleTexts, setVisibleTexts] = useState({});
     const [isClickable, setIsClickable] = useState(true);
 
+
+
     const handleImageClick = (index) => {
         if (isClickable) {
             setVisibleTexts((prev) => ({

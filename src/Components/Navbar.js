@@ -6,10 +6,17 @@ import { Link, useLocation } from 'react-router-dom';
 import { useState } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import { HashLink } from 'react-router-hash-link';
+import BurgerIcon from '../Images/CustomBurgerIcon.png';
 
 const Navbar = () => {
 
   const location = useLocation();
+
+  const CustomBurgerIcon = () => (
+    <div className="burger-icon">
+      <img src={BurgerIcon} alt="burger icon"/>
+    </div>
+  );
 
   const [menuOpenState, setMenuOpenState] = useState(false)
 
@@ -36,7 +43,8 @@ const Navbar = () => {
       <p>Conductor</p>
       </div>
       </div>
-        <Menu noOverlay right isOpen={menuOpenState} onStateChange={handleStateChange} >
+        <Menu noOverlay right isOpen={menuOpenState} onStateChange={handleStateChange} 
+         customBurgerIcon={ <CustomBurgerIcon /> }>
         <Link  onClick={closeMenu} to={'/'}>home</Link>
         <Link onClick={closeMenu} to={'/Biography'}>biography</Link>
         <Link onClick={closeMenu} to={'/MyWork'}>my work</Link>
