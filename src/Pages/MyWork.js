@@ -5,10 +5,10 @@ import Candide from '../Images/Candide.png';
 import conductingOpera from '../Images/conductingOpera.png';
 import Katya from '../Images/KatyaWindow.png';
 import mikesuite from '../Images/MikeBlueSuit.png'
-import Shirine from '../Images/Shirine.png'
+import Shirine from '../Images/ShirineCrop.png'
 import OperaLyon from '../Images/OperaLyon.jpg'
 import TERRACODA1 from '../Images/TERRACODA1.JPG'
-import ReformJenniferPike from '../Images/ReformJenniferPike.jpg'
+import ReformJenniferPike from '../Images/ReformJenniferPikeCrop.jpg'
 
 export default function MyWork() {
     const [visibleTexts, setVisibleTexts] = useState({});
