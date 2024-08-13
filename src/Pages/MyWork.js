@@ -9,6 +9,8 @@ import Shirine from '../Images/ShirineCrop.png'
 import OperaLyon from '../Images/OperaLyon.jpg'
 import TERRACODA1 from '../Images/TERRACODA1.JPG'
 import ReformJenniferPike from '../Images/ReformJenniferPikeCrop.png'
+import LambethCopland from '../Images/MichaelCobb-18.jpg'
+
 
 export default function MyWork() {
     const [visibleTexts, setVisibleTexts] = useState({});
@@ -40,7 +42,15 @@ export default function MyWork() {
 
     const works = [
 
-        
+        {
+            src: LambethCopland,
+            alt: 'Conductor Michael Cobb performing with Lambeth Orchestra in London. Photographer: Betty Laura Zapata',
+            text: `<b>Lambeth Orchestra: Americana with soloist Wayne Marshall</b> July 2024 
+                  <br />Role: Principal Guest Conductor<br /> 
+                  Venue: St John's Waterloo<br />
+                  Programme: Bernstein Candide Overture, Gershwin Rhapsody in Blue, Copland Symphony No.3 
+                  `,
+        },
         {
             src: OperaLyon,
             alt: 'Photographer: Bastien NVS, Image: Opera de Lyon with clear sky',
