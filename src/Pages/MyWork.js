@@ -10,6 +10,8 @@ import OperaLyon from '../Images/OperaLyon.jpg'
 import TERRACODA1 from '../Images/TERRACODA1.JPG'
 import ReformJenniferPike from '../Images/ReformJenniferPikeCrop.png'
 import LambethCopland from '../Images/MichaelCobb-18.jpg'
+import VixenLongborough from '../Images/VixenLongborough.jpg'
+
 
 
 export default function MyWork() {
@@ -112,6 +114,13 @@ export default function MyWork() {
             text: `<b>Shirine - a world premiere by Thierry Escaich</b> May 2022 
                   <br />Role: Assistant Conductor to Franc Ollu<br /> 
                   Venue: Opera de Lyon`,
+        },
+        {
+            src: VixenLongborough,
+            alt: 'Fox Silouhette on a dark green oil canvas',
+            text: `<b>The Cunning Little Vixen</b> May 2022 
+                  <br />Role: Assistant Conductor to Justin Brown<br /> 
+                  Venue: Longborough Festival Opera`,
         },
     ];
 
