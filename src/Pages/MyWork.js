@@ -118,7 +118,7 @@ export default function MyWork() {
         {
             src: VixenLongborough,
             alt: 'Fox Silouhette on a dark green oil canvas',
-            text: `<b>The Cunning Little Vixen</b> May 2022 
+            text: `<b>The Cunning Little Vixen</b> July 2021 
                   <br />Role: Assistant Conductor to Justin Brown<br /> 
                   Venue: Longborough Festival Opera`,
         },
