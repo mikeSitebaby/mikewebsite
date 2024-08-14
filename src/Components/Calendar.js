@@ -4,7 +4,7 @@ import './Calendar.css';
 
 const concerts = [
   {
-    date: '28 October 2024',
+    date: '26 October 2024',
     location: 'Lambeth Orchestra with soloist Ariana Kashefi',
     details: 'Dvorak Cello Concerto, Tchaikovsky Symphony no.2',
     ticketLink: 'https://www.lambeth-orchestra.org.uk/events/an-evening-of-slavic-masterpieces'
