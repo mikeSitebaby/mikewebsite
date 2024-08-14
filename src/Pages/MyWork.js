@@ -95,7 +95,7 @@ export default function MyWork() {
         {
             src: conductingOpera,
             alt: 'Lambeth Orchestra',
-            text: `<b>Lambeth Orchestra 50th Anniversary Concert</b> February 2023 
+            text: `<b>Lambeth Orchestra 50th Anniversary Concert</b> 18 January 2023 
                   <br />Role: Principal Guest Conductor<br /> 
                   Venue: Queen Elizabeth Hall<br />
                   A celebratory programme including Strauss' Four Last Songs<br />
