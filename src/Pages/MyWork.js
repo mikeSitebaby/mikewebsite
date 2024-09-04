@@ -64,7 +64,7 @@ export default function MyWork() {
         {
             src: mikesuite,
             alt: 'Michael Cobb in a blue suit',
-            text: `<b>Lambeth Orchestra Scherazade</b> 15 July 2023 
+            text: `<b>Lambeth Orchestra Scheherazade</b> 15 July 2023 
                   <br />Role: Principal Guest Conductor<br /> 
                   Venue: St Gabriel's Church, Pimlico<br />
                   Soloist: Rachel Duckett
