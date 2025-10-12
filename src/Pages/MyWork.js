@@ -11,6 +11,7 @@ import TERRACODA1 from '../Images/TERRACODA1.JPG'
 import ReformJenniferPike from '../Images/ReformJenniferPikeCrop.png'
 import LambethCopland from '../Images/LambethCopland.jpg'
 import VixenLongborough from '../Images/VixenLongborough.jpg'
+import PeterGrimesCompany from '../Images/PeterGrimesCompany.jpg'
 
 
 
@@ -45,7 +46,14 @@ export default function MyWork() {
 
     const works = [
 
-        
+        {
+            src: PeterGrimesCompany,
+            alt: 'Peter Grimes cast at Opera de Lyon',
+            text: `<b>Peter Grimes</b> May 2025 
+                  <br />Role: Assistant Conductor<br /> 
+                  Opera de Lyon<br />
+                  `,
+        },
         {
             src: LambethCopland,
             alt: 'Conductor Michael Cobb performing with Lambeth Orchestra in London. Photographer: Betty Laura Zapata',
