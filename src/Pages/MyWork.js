@@ -7,7 +7,7 @@ import Katya from '../Images/KatyaWindow.png';
 import mikesuite from '../Images/MikeBlueSuit.png'
 import Shirine from '../Images/ShirineCrop.png'
 import OperaLyon from '../Images/OperaLyon.jpg'
-import TERRACODA1 from '../Images/TERRACODA1.JPG'
+import TERRACODA1 from '../Images/TERRACODA1.jpg'
 import ReformJenniferPike from '../Images/ReformJenniferPikeCrop.png'
 import LambethCopland from '../Images/LambethCopland.jpg'
 import VixenLongborough from '../Images/VixenLongborough.jpg'
