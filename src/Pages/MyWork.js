@@ -14,6 +14,7 @@ import VixenLongborough from '../Images/VixenLongborough.jpg'
 
 
 
+
 export default function MyWork() {
     const [visibleTexts, setVisibleTexts] = useState({});
     const [isClickable, setIsClickable] = useState(true);
@@ -44,6 +45,7 @@ export default function MyWork() {
 
     const works = [
 
+        
         {
             src: LambethCopland,
             alt: 'Conductor Michael Cobb performing with Lambeth Orchestra in London. Photographer: Betty Laura Zapata',
