@@ -4,16 +4,16 @@ import './Calendar.css';
 
 const concerts = [
   {
-    date: '26 October 2024',
-    location: 'Lambeth Orchestra with soloist Ariana Kashefi',
-    details: 'Dvorak Cello Concerto, Tchaikovsky Symphony no.2',
-    ticketLink: 'https://www.lambeth-orchestra.org.uk/events/an-evening-of-slavic-masterpieces'
+    date: '31 May 2026',
+    location: 'Terra Coda at Bristol Beacon',
+    details: 'Award winning composer Benji Bower works with Michael Cobb and the Terra Coda Collective',
+    ticketLink: 'https://www.terracoda.co.uk'
   },
   {
-    date: 'May 2025',
-    location: 'Opera de Lyon',
-    details: 'Britten: Peter Grimes, Assistant Conductor to Wayne Marshall',
-    ticketLink: 'https://www.opera-lyon.com'
+    date: '18 July 2026',
+    location: 'All Saints West Dulwich with Lambeth Orchestra',
+    details: 'Britten: Four Sea Interludes from Peter Grimes, Stravinsky: The Rite of Spring',
+    ticketLink: 'https://www.lambeth-orchestra.org.uk/events/earth-sea'
   },
   // Add more concerts here
 ];
