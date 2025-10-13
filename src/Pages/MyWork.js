@@ -7,7 +7,6 @@ import Katya from '../Images/KatyaWindow.png';
 import mikesuite from '../Images/MikeBlueSuit.png'
 import Shirine from '../Images/ShirineCrop.png'
 import OperaLyon from '../Images/OperaLyon.jpg'
-import TERRACODA1 from '../Images/TERRACODA1.jpg'
 import ReformJenniferPike from '../Images/ReformJenniferPikeCrop.png'
 import LambethCopland from '../Images/LambethCopland.jpg'
 import VixenLongborough from '../Images/VixenLongborough.jpg'
@@ -93,14 +92,6 @@ export default function MyWork() {
             text: `<b>Beethoven Violin Concerto with Jennifer Pike</b> 26 March 2023 
                   <br />Orchestra of the Reform<br /> 
                   Venue: The Reform Club, London`,
-        },
-        {
-            src: TERRACODA1,
-            alt: 'Orchestra recording at BBC Hoddinott Hall - Photographer Paul Blakemore',
-            text: `<b>Studio Recording - Terra Coda, composer Benji Bower</b> February 2023 
-                  <br />Role: Conductor<br /> 
-                  Venue: BBC Hoddinott Hall recording studios, Cardiff<br />
-                  Recording for album release in 2024`,
         },
         {
             src: conductingOpera,
