@@ -11,8 +11,8 @@ import ReformJenniferPike from '../Images/ReformJenniferPikeCrop.png'
 import LambethCopland from '../Images/LambethCopland.jpg'
 import VixenLongborough from '../Images/VixenLongborough.jpg'
 import PeterGrimesCompany from '../Images/PeterGrimesCompany.jpg'
-
-
+import TCRecording1 from '../Images/TCRecording1.JPG'
+import AriannaCello from '../Images/ArianaCello.jpg'
 
 
 export default function MyWork() {
@@ -54,6 +54,15 @@ export default function MyWork() {
                   `,
         },
         {
+            src: AriannaCello,
+            alt: 'Ariana Kashefi performing with Lambeth Orchestra',
+            text: `<b>Lambeth Orchestra - An evening of Slavic Masterpieces</b> 26 October 2024 
+                  <br />Role: Principal Guest Conductor<br /> 
+                  Venue: All Saints West Dulwich<br />
+                  Janacek Adagio, Dvorak Cello Concerto, Tchaikovsky Symphony no.2<br />
+                  Soloist: Ariana Kashefi`,
+        },
+        {
             src: LambethCopland,
             alt: 'Conductor Michael Cobb performing with Lambeth Orchestra in London. Photographer: Betty Laura Zapata',
             text: `<b>Lambeth Orchestra: Americana with soloist Wayne Marshall</b> July 2024 
@@ -92,6 +101,15 @@ export default function MyWork() {
             text: `<b>Beethoven Violin Concerto with Jennifer Pike</b> 26 March 2023 
                   <br />Orchestra of the Reform<br /> 
                   Venue: The Reform Club, London`,
+        },
+        {
+            src: TCRecording1,
+            alt: 'Orchestra recording at Hoddinott Hall - Photographer Paul Blakemore',
+            text: `<b>Studio Recording - Terra Coda, composer Benji Bower</b> February 2023 
+                  <br />Role: Conductor<br /> 
+                  Venue: BBC Hoddinott Hall recording studios, Cardiff<br />
+                  Recording for album release in 2024<br />
+                  `,
         },
         {
             src: conductingOpera,
