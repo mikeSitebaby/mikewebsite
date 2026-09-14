@@ -4,16 +4,40 @@ import './Calendar.css';
 
 const concerts = [
   {
-    date: '31 May 2026',
-    location: 'Terra Coda at Bristol Beacon',
-    details: 'Award winning composer Benji Bower works with Michael Cobb and the Terra Coda Collective',
-    ticketLink: 'https://www.terracoda.co.uk'
+    date: '30 November 2026',
+    location: 'Glasgow Royal Concert Hall',
+    details: 'Love Actually in Concert - Live',
+    ticketLink: 'https://musicalsontour.co.uk/love-actually-in-concert-with-live-orchestra-tour/'
   },
   {
-    date: '18 July 2026',
-    location: 'All Saints West Dulwich with Lambeth Orchestra',
-    details: 'Britten: Four Sea Interludes from Peter Grimes, Stravinsky: The Rite of Spring',
-    ticketLink: 'https://www.lambeth-orchestra.org.uk/events/earth-sea'
+    date: '2 December 2026',
+    location: 'Usher Hall Edinburgh',
+    details: 'Love Actually in Concert - Live',
+    ticketLink: 'https://musicalsontour.co.uk/love-actually-in-concert-with-live-orchestra-tour/'
+  },
+  {
+    date: '4 December 2026',
+    location: 'Bath Forum',
+    details: 'Love Actually in Concert - Live',
+    ticketLink: 'https://musicalsontour.co.uk/love-actually-in-concert-with-live-orchestra-tour/'
+  },
+  {
+    date: '5 December 2026',
+    location: 'Liverpool Philharmonic Hall',
+    details: 'Love Actually in Concert - Live',
+    ticketLink: 'https://musicalsontour.co.uk/love-actually-in-concert-with-live-orchestra-tour/'
+  },
+  {
+    date: '6 December 2026',
+    location: 'Swansea Building Society Arena',
+    details: 'Love Actually in Concert - Live',
+    ticketLink: 'https://musicalsontour.co.uk/love-actually-in-concert-with-live-orchestra-tour/'
+  },
+  {
+    date: '6 December 2026',
+    location: 'Swansea Building Society Arena',
+    details: 'Love Actually in Concert - Live',
+    ticketLink: 'https://musicalsontour.co.uk/love-actually-in-concert-with-live-orchestra-tour/'
   },
   // Add more concerts here
 ];
