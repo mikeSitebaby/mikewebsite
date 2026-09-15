@@ -35,14 +35,14 @@ const concerts = [
   },
   {
     date: '7 February 2027',
-    location: 'Assembly Hall Theatre - Tunbridge Wells',
-    details: 'Ruth Gipps Clarinet Concerto, Debussy La Mer, Sibelius Symphony no.1. Soloist: Robert Plane',
+    location: 'Royal Tunbridge Wells Symphony Orchestra\nAssembly Hall Theatre - Tunbridge Wells',
+    details: 'Ruth Gipps Clarinet Concerto, Debussy La Mer, Sibelius Symphony no.1\nSoloist: Robert Plane',
     ticketLink: 'https://rtwso.org'
   },
   {
     date: '10 July 2027',
-    location: 'All Saints Church, West Dulwich, London',
-    details: 'Ustvolskaya Childrens Suite, Mozart Clarinet Concerto, Prokoviev Symphony No.5. Soloist: Anna Hashimoto',
+    location: 'Lambeth Orchestra\nAll Saints Church, West Dulwich, London',
+    details: 'Ustvolskaya Childrens Suite, Mozart Clarinet Concerto, Prokoviev Symphony No.5\nSoloist: Anna Hashimoto',
     ticketLink: 'https://www.lambeth-orchestra.org.uk'
   },
   // Add more concerts here
