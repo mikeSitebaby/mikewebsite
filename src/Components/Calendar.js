@@ -34,10 +34,16 @@ const concerts = [
     ticketLink: 'https://musicalsontour.co.uk/love-actually-in-concert-with-live-orchestra-tour/'
   },
   {
-    date: '6 December 2026',
-    location: 'Swansea Building Society Arena',
-    details: 'Love Actually in Concert - Live',
-    ticketLink: 'https://musicalsontour.co.uk/love-actually-in-concert-with-live-orchestra-tour/'
+    date: '7 February 2027',
+    location: 'Assembly Hall Theatre - Tunbridge Wells',
+    details: 'Ruth Gipps Clarinet Concerto, Debussy La Mer, Sibelius Symphony no.1. Soloist: Robert Plane',
+    ticketLink: 'https://rtwso.org'
+  },
+  {
+    date: '10 July 2027',
+    location: 'All Saints Church, West Dulwich, London',
+    details: 'Ustvolskaya Childrens Suite, Mozart Clarinet Concerto, Prokoviev Symphony No.5. Soloist: Anna Hashimoto',
+    ticketLink: 'https://www.lambeth-orchestra.org.uk'
   },
   // Add more concerts here
 ];
