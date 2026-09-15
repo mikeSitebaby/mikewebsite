@@ -64,7 +64,14 @@ const ConcertCalendar = () => {
        
             <div className="date">{concert.date}</div>
             <div className="details">
-              <div className="location">{concert.location}</div>
+              <div className="location">
+                  {concert.location.split('\n').map((line, i) => (
+                  <React.Fragment key={i}>
+                  {line}
+                  {i < concert.location.split('\n').length - 1 && <br />}
+                  </React.Fragment>
+                   ))}
+              </div>
               <div className="description">{concert.details}</div>
             </div>
          
